@@ -12,7 +12,7 @@ services:
         condition: service_healthy
   
   backend:
-    image: somkiat/backend:1.0
+    image: bd23/backend:1.0
     build:
       context: ./backend
       dockerfile: Dockerfile
