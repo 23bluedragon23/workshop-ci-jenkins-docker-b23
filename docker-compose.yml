@@ -1,7 +1,7 @@
 version: "3"
 services:
   frontend:
-    image: somkiat/frontend:1.0
+    image: bd23/frontend:1.0
     build:
       context: ./frontend
       dockerfile: Dockerfile
