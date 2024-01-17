@@ -1,0 +1,35 @@
+pipeline {
+ agent any
+    stages {
+        stage('1. Code') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('2. Scan code') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('3. Build backend') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('4. Create db + data') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('5. Create backend') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('6. Backend testing') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
